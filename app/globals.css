@@ -82,3 +82,11 @@
 .font5 {
   font-family: "Poppins", serif;
 }
+
+@media(max-width:920px){
+  .col{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
